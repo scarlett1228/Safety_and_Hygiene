@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroupshape">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game2_choose"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/reggae_one"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/boykids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/boykidswithmasksmall"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game2_or"
+            android:fontFamily="@font/reggae_one"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="25sp"/>
+
+        <ImageButton
+            android:id="@+id/girlkids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:src="@drawable/girlkidswithmasksmall" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

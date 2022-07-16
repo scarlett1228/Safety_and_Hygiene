@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundblackshape">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Quiz Instruction"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq1"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq2"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq3"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq4"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq5"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq6"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq7" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iq8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/iq7"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/closedialog"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/backgroundblackshape"
+                android:text="@string/instruction_quiz_close" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

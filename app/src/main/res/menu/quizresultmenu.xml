@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hygienequizresult"
+        android:title="@string/quiz_result_hygiene"/>
+
+    <item
+        android:id="@+id/roadsafetyquizresult"
+        android:title="@string/quiz_result_road"/>
+
+    <item
+        android:id="@+id/homesafetyquizresult"
+        android:title="@string/quiz_result_home"/>
+
+    <item
+        android:id="@+id/allresult"
+        android:title="@string/quiz_result_all"/>
+</menu>

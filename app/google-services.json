@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "564890351342",
+    "firebase_url": "https://fypproject-ccf08-default-rtdb.firebaseio.com",
+    "project_id": "fypproject-ccf08",
+    "storage_bucket": "fypproject-ccf08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564890351342:android:477a4cf0a0497df6e5e5ff",
+        "android_client_info": {
+          "package_name": "my.edu.utar.mobileappassignment2.fyp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564890351342-ud7pc9ee7idf8pgr054vrt4k2cflsi95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqYVfnOREtvCsXPfX2WxFBcPx_dlnjDm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564890351342-ud7pc9ee7idf8pgr054vrt4k2cflsi95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

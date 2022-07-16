@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundblackshape">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/game1_howtoplay"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/game1_name"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ig11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/ig11"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ig12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/ig12"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ig13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/ig13"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ig14" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/delius_swash_caps"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:text="@string/ig14"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="15sp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/closedialog1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/backgroundblackshape"
+                android:text="CLOSE" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="357dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center_horizontal"
+        android:text="@string/main_app_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/reggae_one"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/reggae_one"
+        android:text=" "
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:background="@drawable/backgroupshape"
+        android:fontFamily="@font/reggae_one"
+        android:onClick="launchstart"
+        android:text="@string/main_start"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
+
+
+
+    <Button
+        android:id="@+id/logresbtn"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:background="@drawable/backgroupshape"
+        android:fontFamily="@font/reggae_one"
+        android:text="@string/main_login_register_btn"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:onClick="launchsettings"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ImageButton
+        android:id="@+id/FYI"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/backgroupshape"
+        android:src="@drawable/ic_baseline_info_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />I
+
+</androidx.constraintlayout.widget.ConstraintLayout>

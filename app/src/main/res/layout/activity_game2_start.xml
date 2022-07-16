@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game.Game2StartActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/backgroupshape"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:text="@string/game_avoid_the_virus"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TableRow
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sanitizerpng"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/reggae_one"
+                android:text="@string/game2_sanitizer_mark"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/maskpng"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/reggae_one"
+                android:text="@string/game2_mask_mark"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/viruspng"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/reggae_one"
+                android:text="@string/game2_virus"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game2_start"
+        android:background="@drawable/backgroupshape"
+        android:layout_marginTop="60dp"
+        android:onClick="startGame"/>
+
+
+</LinearLayout>

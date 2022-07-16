@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kidsplaybackground"
+    tools:context=".QuizActivity">
+
+    <!--https://www.rawpixel.com/image/2822299/free-illustration-image-orange-background-n95-mask-->
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:titleTextColor="@color/black"
+        app:title=" "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/reggae_one"
+        android:text="@string/quiz_title"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/teachingbutton"
+        android:layout_width="127dp"
+        android:layout_height="43dp"
+        android:background="@drawable/backgroundblackshape"
+        android:fontFamily="@font/baloo"
+        android:text="@string/quiz_instruction"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <Button
+        android:id="@+id/secondhygienebtn"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/quiz_hygiene"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <Button
+        android:id="@+id/secondsafetybtn"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/quiz_road"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/secondhomesafetybtn"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/quiz_home"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <Button
+        android:id="@+id/resultbutton"
+        android:layout_width="127dp"
+        android:layout_height="43dp"
+        android:background="@drawable/backgroundblackshape"
+        android:fontFamily="@font/baloo"
+        android:text="@string/quiz_result"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondpage"
+    tools:context=".SecondPageActivity">
+
+    <!--https://www.flaticon.com/free-icon/book_3400060?term=quiz&page=1&position=35&page=1&position=35&related_id=3400060&origin=search-->
+    <!--https://www.flaticon.com/free-icon/console_686589-->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title=" "
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="380dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center_horizontal"
+        android:text="@string/main_app_name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <ImageButton
+        android:id="@+id/secondstatisticbtn"
+        android:layout_width="113dp"
+        android:layout_height="101dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:src="@drawable/ic_baseline_bar_chart_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <ImageButton
+        android:id="@+id/secondinfobtn"
+        android:layout_width="113dp"
+        android:layout_height="101dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:src="@drawable/infosecondicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageButton
+        android:id="@+id/secondvideobtn"
+        android:layout_width="113dp"
+        android:layout_height="101dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:src="@drawable/videosecondicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageButton
+        android:id="@+id/secondgamebtn"
+        android:layout_width="113dp"
+        android:layout_height="101dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:src="@drawable/gamesecondicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/tvsecondgamebtn"
+        android:layout_width="92dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/second_page_game"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondgamebtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvsecondvideobtn"
+        android:layout_width="75dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/second_page_video"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondvideobtn"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <ImageButton
+        android:id="@+id/secondquizbtn"
+        android:layout_width="113dp"
+        android:layout_height="101dp"
+        android:background="@drawable/backgroupshape"
+        android:elevation="100dp"
+        android:src="@drawable/quizsecondicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/tvsecondquizbtn"
+        android:layout_width="75dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/second_page_quiz"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondquizbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvsecondinfobtn"
+        android:layout_width="97dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/second_page_information"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondinfobtn"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/tvsecondstatisticbtn"
+        android:layout_width="75dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/reggae_one"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/second_page_statistic"
+        android:textColor="#8a2be2"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondstatisticbtn"
+        app:layout_constraintVertical_bias="0.014" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
